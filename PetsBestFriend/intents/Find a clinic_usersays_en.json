@@ -1,0 +1,44 @@
+[
+  {
+    "id": "413d08d3-dca5-4a54-ad3c-6052232ff3fa",
+    "data": [
+      {
+        "text": "Vet in ",
+        "userDefined": false
+      },
+      {
+        "text": "San Francisco",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ddba44dc-ad47-4e74-b0b9-302241446d8d",
+    "data": [
+      {
+        "text": "Pet clinic",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "af972086-4c9f-476c-b18d-4c4dfc2c5d03",
+    "data": [
+      {
+        "text": "Find a clinic nearby",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

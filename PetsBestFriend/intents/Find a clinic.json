@@ -1,0 +1,109 @@
+{
+  "id": "a1ebf5df-4584-431b-b8a0-5e19b3da3404",
+  "name": "Find a clinic",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "7e316f2e-7d94-455d-b7d3-9119bd504aaa",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "list_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "Banfield Clinics",
+          "subtitle": "",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Marina",
+                "synonyms": []
+              },
+              "title": "Marina",
+              "description": "2024 Lombard St\nSan Francisco, CA 94123",
+              "image": {
+                "url": "",
+                "accessibilityText": ""
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Daly City",
+                "synonyms": []
+              },
+              "title": "Daly City",
+              "description": "315 Gellert Blvd\nDaly City, CA  94015",
+              "image": {
+                "url": "",
+                "accessibilityText": ""
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Pacifica",
+                "synonyms": []
+              },
+              "title": "Pacifica",
+              "description": "721 Hickey Blvd\nPacifica, CA 94044",
+              "image": {
+                "url": "",
+                "accessibilityText": ""
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Dog parks nearby"
+            },
+            {
+              "title": "What can Fido eat"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Sure, here\u0027s are some clinics I found, close to $geo-city.",
+            "Sure, here are some clinics nearby."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

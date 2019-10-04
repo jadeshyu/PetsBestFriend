@@ -1,0 +1,38 @@
+[
+  {
+    "id": "9c96a0c5-6d45-4f05-8447-8f9e8b95c63e",
+    "data": [
+      {
+        "text": "Where can my dog play",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d8143bf3-9b42-466c-ae16-39a22eb27f99",
+    "data": [
+      {
+        "text": "Find a dog park",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f6e04d94-ce62-456c-9330-4401379f8789",
+    "data": [
+      {
+        "text": "Dog parks nearby",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

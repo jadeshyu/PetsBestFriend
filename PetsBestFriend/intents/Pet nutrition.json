@@ -1,0 +1,100 @@
+{
+  "id": "110be6fa-6622-4c9b-8907-26dca2c40b01",
+  "name": "Pet nutrition",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Here are some treats Fido might enjoy.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Chicken",
+                "synonyms": [
+                  "Chicken"
+                ]
+              },
+              "title": "Nutro Ultra Chicken",
+              "description": "409 calories",
+              "image": {
+                "url": "https://github.com/jadeshyu/PetsBestFriend/raw/master/nutroultra.jpeg",
+                "accessibilityText": "Nutro Ultra Chicken"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Solid Gold",
+                "synonyms": [
+                  "Solid Gold"
+                ]
+              },
+              "title": "Solid Gold Mighty Mini Beef",
+              "description": "440 calories",
+              "image": {
+                "url": "https://github.com/jadeshyu/PetsBestFriend/raw/master/solidgold.jpeg",
+                "accessibilityText": "Solid Gold Mighty Mini Beef"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Purina Pro",
+                "synonyms": [
+                  "Purina Pro"
+                ]
+              },
+              "title": "Purina Pro Plan Savor Grain-Free Adult Beef \u0026 Peas Entree Canned Dog Food",
+              "description": "458 calories",
+              "image": {
+                "url": "https://github.com/jadeshyu/PetsBestFriend/raw/master/purinapro.jpeg",
+                "accessibilityText": "Purina Pro Plan Savor Grain-Free Adult Beef \u0026 Peas Entree Canned Dog Food"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Dog parks nearby"
+            },
+            {
+              "title": "Clinics in the area"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

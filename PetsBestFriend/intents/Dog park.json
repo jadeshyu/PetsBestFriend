@@ -1,0 +1,59 @@
+{
+  "id": "c0a1d399-5fc7-46c8-8a3a-0adaa733ad99",
+  "name": "Dog park",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "Moscone Dog Park",
+          "formattedText": "Chestnut St, San Francisco, CA 94123",
+          "image": {
+            "url": "",
+            "accessibilityText": ""
+          }
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "What should my dog eat"
+            },
+            {
+              "title": "Pet clinics nearby"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Fido might like this dog park in the area."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
